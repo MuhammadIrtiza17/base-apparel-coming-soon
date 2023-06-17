@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Josefin+Sans&family=Poppins&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+</head>
+<body>
+<div  id="wrapper">
+ <div class="wrapperDiv" id="content">
+    <img id="logo" src="./images/logo.svg" alt="">
+    <div id="content_text">
+    <div id="formobile"> <img class="heroimg" src="./images/hero-mobile.jpg"  alt=""></div>
+<h1>   <span id="WERE"> WE'RE</span><br><span class="comingsoon">COMING</span>  <br><span class="comingsoon" >SOON</span> 
+ </h1>
+<h2>  Hello fellow shoppers! We're currently building our new fashion store. 
+ Add your email below to stay up-to-date with  announcements and our launch deals.</h2>
+
+<div id="email">
+ <form action="#" name="form1">
+   <input  type="email" name="emailvalid" placeholder="Email Address">
+   <button  id="cfa_button" onclick="ValidateEmail(document.form1.emailvalid)"><img src="./images/icon-arrow.svg" alt=""></button>
+   <img id="error" src="./images/icon-error.svg" alt="">
+   <!-- <input type="submit" value=">" id="button"  name="submit" onclick="ValidateEmail(document.form1.emailvalid)"> -->
+ </form>
+
+ <p id="alert">Please provide a valid email </p></div>
+    
+  </div>  
+   
+  </div >
+<div class="wrapperDiv" id="heroimgdiv"> <img class="heroimg" src="./images/hero-desktop.jpg" alt=""></div>
+</div>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.linkedin.com/in/muhammad-irtiza-19ab26216/">Muhammad Irtiza</a>.
+    </p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
